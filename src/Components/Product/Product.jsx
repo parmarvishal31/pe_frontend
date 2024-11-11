@@ -46,9 +46,10 @@ function Product() {
                     {product["name"].charAt(0).toUpperCase() +
                       product["name"].slice(1)}
                   </span>
-                  <span className="text-blue-500 cursor-pointer">
-                    See more...
-                  </span>
+                  <span>DEscription</span>
+                  <button className="bg-blue-500 text-white cursor-pointer border-2 rounded-md">
+                    Add To Order
+                  </button>
                 </div>
               </div>
             );
